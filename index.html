@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="design.css" /> 
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>17:04</title>
+</head>
+<body>
+    <logo src="H:\Signal\logo.jpg"></logo>
+    <input type="text"  id="input001"> 
+    <button onClick="btn001()" id="submit"> Odeslat </button>
+    <br> <br>
+    <p class="zprava" id="message001"></p>
+    <script>
+function btn001() {
+    var text001;
+    var colors001 = input001.value;
+      if (colors001 == "9788076251083") {
+      text001 = "Studijní oddělení";
+        document.getElementById("message001").innerHTML = text001;
+      }
+    }
+</script>
+
+</body>
+</html>
